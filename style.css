@@ -1,0 +1,53 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: white;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    line-height: 10%;
+    color: rgb(0, 252, 0);
+}
+
+nav{
+    background-color: rgb(0, 252, 0);
+    padding: 1%;
+}
+
+header,nav{
+    text-align: center;
+}
+
+.sfondo{
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 0 14%;
+    padding: 7% 10%
+}
+
+.proprietario{
+    font-size: x-large;
+    font-weight: 900;
+}
+.indirizzo{
+    font-size: medium;
+    line-height: 25px;
+}
+.box1{
+    background-color: orange;
+    width: 289px;
+}
+.box2{
+    background-color: rgb(0, 252, 0);
+    width: 560px;
+}
+.box3{
+    background-color: red;
+    width: 150px;    
+}
+
+.box3, .box2, .box1{ 
+    height: 30px;
+    border-radius: 5px;
+}
